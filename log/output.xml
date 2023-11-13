@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231113 09:47:22.397" rpa="false" schemaversion="4">
+<suite id="s1" name="Dashboard" source="C:\Users\HomePC\Desktop\IMS_Rebuild\Tests\dashboard.robot">
+<test id="s1-t1" name="User In" line="6">
+<kw name="When User Try To login" library="dashboard">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${${ENVIRONMENT}_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231113 09:47:22.898" level="INFO">Opening browser 'Chrome' to base url 'https://dev-ims.mytv-plus.net/login'.</msg>
+<status status="PASS" starttime="20231113 09:47:22.897" endtime="20231113 09:47:35.276"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231113 09:47:35.276" endtime="20231113 09:47:35.569"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231113 09:47:37.572" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231113 09:47:35.570" endtime="20231113 09:47:37.573"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231113 09:47:37.574" endtime="20231113 09:47:39.918"/>
+</kw>
+<status status="PASS" starttime="20231113 09:47:22.896" endtime="20231113 09:47:39.918"/>
+</kw>
+<status status="PASS" starttime="20231113 09:47:22.895" endtime="20231113 09:47:39.919"/>
+</test>
+<status status="PASS" starttime="20231113 09:47:22.403" endtime="20231113 09:47:39.920"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Dashboard">Dashboard</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

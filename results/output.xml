@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231113 09:48:05.953" rpa="false" schemaversion="4">
+<suite id="s1" name="IMS Rebuild" source="C:\Users\HomePC\Desktop\IMS_Rebuild">
+<suite id="s1-s1" name="Tests" source="C:\Users\HomePC\Desktop\IMS_Rebuild\Tests">
+<suite id="s1-s1-s1" name="Dashboard" source="C:\Users\HomePC\Desktop\IMS_Rebuild\Tests\dashboard.robot">
+<test id="s1-s1-s1-t1" name="User In" line="6">
+<kw name="When User Try To login" library="dashboard">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${${ENVIRONMENT}_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231113 09:48:06.249" level="INFO">Opening browser 'Chrome' to base url 'https://dev-ims.mytv-plus.net/login'.</msg>
+<status status="PASS" starttime="20231113 09:48:06.249" endtime="20231113 09:48:08.585"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231113 09:48:08.585" endtime="20231113 09:48:08.750"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231113 09:48:10.750" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231113 09:48:08.750" endtime="20231113 09:48:10.750"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231113 09:48:10.750" endtime="20231113 09:48:13.060"/>
+</kw>
+<status status="PASS" starttime="20231113 09:48:06.249" endtime="20231113 09:48:13.060"/>
+</kw>
+<status status="PASS" starttime="20231113 09:48:06.249" endtime="20231113 09:48:13.092"/>
+</test>
+<status status="PASS" starttime="20231113 09:48:05.995" endtime="20231113 09:48:13.098"/>
+</suite>
+<status status="PASS" starttime="20231113 09:48:05.995" endtime="20231113 09:48:13.117"/>
+</suite>
+<status status="PASS" starttime="20231113 09:48:05.963" endtime="20231113 09:48:13.129"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="IMS Rebuild">IMS Rebuild</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">IMS Rebuild.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Dashboard">IMS Rebuild.Tests.Dashboard</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
