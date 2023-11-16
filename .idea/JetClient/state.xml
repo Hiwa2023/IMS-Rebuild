@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="9d20fa29-8fa8-48fa-8856-e13f32ad73ab" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="https://fakestoreapi.com/products" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="environmentGroups">
+      <list>
+        <environmentGroupState>
+          <option name="environments">
+            <list>
+              <environmentState>
+                <option name="id" value="1" />
+                <option name="name" value="Development" />
+              </environmentState>
+              <environmentState>
+                <option name="id" value="2" />
+                <option name="name" value="Stage" />
+              </environmentState>
+              <environmentState>
+                <option name="id" value="3" />
+                <option name="name" value="Production" />
+              </environmentState>
+            </list>
+          </option>
+          <option name="id" value="ims_rebuild" />
+          <option name="name" value="IMS_Rebuild" />
+        </environmentGroupState>
+      </list>
+    </option>
+    <option name="id" value="e4a32bf3-f6a2-4b37-a6c2-4601e3137224" />
+    <option name="selectedEnvironmentIds">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+</project>
